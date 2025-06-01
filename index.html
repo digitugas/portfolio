@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitugas</title>
+    <link rel="icon" type="image/png" href="images\logo.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- magnific popup css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup/dist/magnific-popup.css">
+
+
+</head>
+<body>
+  <style>
+    .swiper 
+    { 
+      width: 100%; 
+      height: 250px; } 
+      .swiper-slide img 
+      { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+      } /* Overlay */ .work-overlay 
+      { 
+        position: absolute; 
+        top: 0; left: 0; width: 100%;
+        height: 100%; 
+        background: rgba(0,0,0,0.6);
+        opacity: 0; 
+        z-index: 2;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column; 
+        color: #fff; 
+        transition: opacity 0.3s ease; } 
+           
+
+
+      section {
+        padding: 40px 0;
+        width: 100%;
+      }
+
+      .section-title {
+      font-size: 25px;
+      font-weight: 700;
+      color: var(--black-900);
+      text-transform: capitalize;
+      text-align: center;
+      }
+
+      .iframe-wrapper {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+
+      .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 75vh; /* tinggi layar */
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+        @media (min-width: 1200px) {
+      .iframe-wrapper {
+        padding: 0 60px;
+      }
+    }
+  </style>
+
+  <header class="header-area">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- brand -->
+        <a href="index.html" class="navbar-brand">DigiTugas</a>
+        <!-- toggler/collapsible button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active" data-scroll-nav="0">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-scroll-nav="1">about us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link" data-scroll-nav="2">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-scroll-nav="3">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#teams" class="nav-link" data-scroll-nav="4">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link" data-scroll-nav="5">pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#padlet" class="nav-link" data-scroll-nav="6">testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-scroll-nav="7">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- home section -->
+    <section class="home" id="home" data-scroll-index="0">
+      <div class="header-content d-flex align-items-center">
+        <div id="parallax">
+          <div class="header-shape shape-one" data-depth="0.10">
+            <img src="images/shape/shape-1.png" alt="">
+          </div>
+          <div class="header-shape shape-two" data-depth="0.30">
+            <img src="images/shape/shape-2.png" alt="">
+          </div>
+          <div class="header-shape shape-three" data-depth="0.40">
+            <img src="images/shape/shape-3.png" alt="">
+          </div>
+          <div class="header-shape shape-fore" data-depth="0.60">
+            <img src="images/shape/shape-2.png" alt="">
+          </div>
+          <div class="header-shape shape-five" data-depth="0.20">
+            <img src="images/shape/shape-1.png" alt="">
+          </div>
+          <div class="header-shape shape-six" data-depth="0.15">
+            <img src="images/shape/shape-4.png" alt="">
+          </div>
+          <div class="header-shape shape-seven" data-depth="0.50">
+            <img src="images/shape/shape-5.png" alt="">
+          </div>
+          <div class="header-shape shape-eight" data-depth="0.40">
+            <img src="images/shape/shape-3.png" alt="">
+          </div>
+          <div class="header-shape shape-nine" data-depth="0.20">
+            <img src="images/shape/shape-6.png" alt="">
+          </div>
+          <div class="header-shape shape-ten" data-depth="0.30">
+            <img src="images/shape/shape-3.png" alt="">
+          </div>
+        </div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="home-text">
+                <h4>HELLO, I'M</h4>
+                <h1>DIGI TUGAS</h1>
+                <p>A Freelance UI Designer & Web Developer</p>
+                <div class="home-btn">
+                  <a href="#portfolio" class="btn-1" data-scroll-nav="3">view my work</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="home-img d-none d-lg-block">
+                <img src="images/profile-pic.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- header social -->
+        <div class="header-social">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="header-social-icon">
+                  <ul>
+                    <li><a href="https://wa.me/6285692203221" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://x.com/digitugass" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/digitugass/" target="_blank"><i class="fab fa-instagram"></i></a></li>         
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- header section end -->
+  <!-- about us section start -->
+  <section class="about-area section-padding" data-scroll-index="1" id="about" >
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>About</h4>
+            <h2>Personal <span>Details</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-content">
+            <h5 class="about-title">I'm <span>DigiTugas</span> Freelance</h5>
+            <p class="details">Di era digital ini, menyelesaikan tugas dengan cepat, tepat, 
+              dan berkualitas adalah kunci kesuksesan. DigiTugas hadir sebagai 
+              solusi terpercaya bagi Anda yang membutuhkan bantuan dalam berbagai 
+              bidang akademik dan profesional. kita adalah tim profesional dengan 
+              latar belakang IT, siap membantu Anda dengan layanan terbaik!</p>
+               <ul>
+                 <li>
+                   <div class="single-info d-flex align-items-center">
+                     <div class="info-icon text-center">
+                       <i class="fa fa-calendar"></i>
+                     </div>
+                     <div class="info-text">
+                       <p><span>Date of birth:</span> 26 Des 2024</p>
+                     </div>
+                   </div> <!-- single info -->
+                 </li>
+                 <li>
+                  <div class="single-info d-flex align-items-center">
+                    <div class="info-icon text-center">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="info-text">
+                      <p><span>Email:</span> digitugas@gmail.com</p>
+                    </div>
+                  </div> <!-- single info -->
+                </li>
+                <li>
+                  <div class="single-info d-flex align-items-center">
+                    <div class="info-icon text-center">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="info-text">
+                      <p><span>Phone:</span> +62 856-9220-3221 </p>
+                    </div>
+                  </div> <!-- single info -->
+                </li>
+                <li>
+                  <div class="single-info d-flex align-items-center">
+                    <div class="info-icon text-center">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <div class="info-text">
+                      <p><span>Location:</span> Tambun Selatan</p>
+                    </div>
+                  </div> <!-- single info -->
+                </li>
+                <li>
+                  <div class="single-info d-flex align-items-center">
+                    <div class="info-icon text-center">
+                      <i class="fa fa-university"></i>
+                    </div>
+                    <div class="info-text">
+                      <p><span>Degree:</span> S1</p>
+                    </div>
+                  </div> <!-- single info -->
+                </li>
+                <li>
+                  <div class="single-info d-flex align-items-center">
+                    <div class="info-icon text-center">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="info-text">
+                      <p><span>Website:</span> www.DigiTugas.com</p>
+                    </div>
+                  </div> <!-- single info -->
+                </li>
+               </ul>
+               <a href="https://wa.me/6285692203221" target="_blank" class="hire-me">Hire Me</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-5 offset-xl-1">
+          <div id="skill-bar-wrapper">
+            <div class="text-left">
+              <!-- C++ -->
+              <h4> C++ <span style="float: right;">95%</span></h4>
+              <div class="skillbar-container" data-percent="95%">
+                <div class="skills"></div>
+              </div>
+              <!-- Java -->
+              <h4> Php <span style="float: right;">85%</span></h4>
+              <div class="skillbar-container" data-percent="75%">
+                <div class="skills"></div>
+              </div>
+               <!-- HTML -->
+               <h4> HTML <span style="float: right;">95%</span></h4>
+               <div class="skillbar-container" data-percent="75%">
+                 <div class="skills"></div>
+               </div>
+               <!-- Java -->
+               <h4> Text & Document Design <span style="float: right;">80%</span></h4>
+               <div class="skillbar-container" data-percent="75%">
+                 <div class="skills"></div>
+               </div>
+                <!-- Javascript -->
+                <h4> Skripsi <span style="float: right;">85%</span></h4>
+                <div class="skillbar-container" data-percent="85%">
+                  <div class="skills"></div>
+                </div>
+                <h4> Statistical Data Analysis<span style="float: right;">82%</span></h4>
+                <div class="skillbar-container" data-percent="85%">
+                  <div class="skills"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about us section end -->
+  <!-- services section start -->
+  <section class="services section-padding" data-scroll-index="2" id="services">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>services</h4>
+            <h2>services <span>i provide</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>web design</h3>
+            <p>kita menyediakan layanan desain website yang modern, responsif, dan menarik. 
+              Cocok untuk personal branding, bisnis, atau portofolio online. Desain kita 
+              utamakan kenyamanan pengguna dan tampilan yang profesional.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <h3>video editing</h3>
+            <p>kita menyediakan layanan editing video yang profesional dan kreatif, 
+              cocok untuk konten YouTube, promosi bisnis, event spesial, hingga kebutuhan 
+              media sosial. Setiap video diedit dengan teliti untuk menghasilkan visual 
+              yang menarik dan berkualitas tinggi.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <h3>Skripsi</h3>
+            <p>kita menyediakan jasa bantuan pengerjaan skripsi dari bab awal hingga 
+              akhir. Bisa bantu dalam penulisan, pencarian referensi, analisis data, 
+              hingga persiapan presentasi. Dikerjakan dengan teliti dan sesuai dengan 
+              arahan dosen pembimbing.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>web development</h3>
+            <p>kita membantu Anda membangun website yang cepat, aman, 
+              dan sesuai kebutuhan. Mulai dari landing page hingga 
+              sistem berbasis web, semuanya bisa kita kerjakan dengan teknologi terbaru.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>digital marketing</h3>
+            <p>kita juga menyediakan jasa digital marketing, mulai dari pengelolaan 
+              media sosial, SEO, hingga iklan online. Tujuannya? Agar bisnis atau 
+              konten Anda bisa menjangkau lebih banyak audiens yang tepat.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <h3>android development</h3>
+            <p>kita bisa membuat aplikasi Android sesuai kebutuhan Anda—entah 
+              itu aplikasi sederhana, toko online, atau sistem informasi berbasis 
+              mobile. Tampilan menarik dan performa optimal jadi prioritas kita.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>graphic design</h3>
+            <p>kita melayani pembuatan desain grafis seperti logo, 
+              poster, banner, hingga konten media sosial. Desain yang 
+              kita buat akan disesuaikan dengan identitas brand dan pesan yang 
+              ingin Anda sampaikan.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-mobile"></i>
+            </div>
+            <h3>Statistical Data Analysis</h3>
+            <p>kita siap membantu mengolah dan menganalisis data untuk kebutuhan tugas 
+              akhir atau penelitian. Mulai dari input data, uji validitas, reliabilitas, 
+              regresi, hingga interpretasi hasil secara lengkap dan mudah dipahami.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <i class="fas fa-edit"></i>
+            </div>
+            <h3>Text & Document Design</h3>
+            <p>kita menyediakan layanan pengetikan cepat dan rapi untuk makalah, 
+              laporan, atau dokumen lainnya. Bisa juga bantu perapihan format, 
+              daftar isi otomatis, dan layout sesuai ketentuan tugas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- services section end -->
+   <!-- portfolio section start -->
+   <section class="img-gallery section-padding" data-scroll-index="3" id="portfolio">
+     <div class="container">
+      <!-- Tombol untuk membuka modal -->
+      <!-- <button id="addItemBtn" class="floating-btn btn btn-primary">
+        <i class="fa fa-plus"></i>
+      </button>          -->
+    <!-- Modal -->
+    <!-- <div id="formModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h5 class="mb-3">Tambah Portfolio</h5>
+        <input type="text" id="title" placeholder="Judul" class="form-control mb-2">
+        <input type="text" id="projectLink" placeholder="Link project" class="form-control mb-2">
+        <select id="category" class="form-control mb-2">
+          <option value="Website">Website</option>
+          <option value="Game">Game App</option>
+          <option value="Iot">Iot</option>
+          <option value="Doc">Document</option>
+          <option value="Data">Data</option>
+          <option value="Design">Design</option>
+        </select> -->
+        <!-- Input File untuk Gambar -->
+        <!-- <input type="file" id="fileInput" class="form-control mb-2">
+        <button id="saveItemBtn" class="btn btn-success">Simpan</button>
+      </div>
+    </div> -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title">
+            <h4>portfolio</h4>
+            <h2>the results of our <span>work</span></h2>
+          </div>
+        </div>
+      </div>
+      <!-- filter btn -->
+      <div class="row">
+        <div class="col-lg-8 d-flex justify-content-center sortBtn flex-wrap">
+          <a href="#" class="filter-btn active" data-filter="*">all</a>
+          <a href="" class="filter-btn" data-filter=".Website">Website</a>
+          <a href="#" class="filter-btn" data-filter=".Iot">Iot</a>
+          <a href="#" class="filter-btn" data-filter=".Game">Game App</a>
+          <a href="#" class="filter-btn" data-filter=".Data">Data </a>
+          <a href="#" class="filter-btn" data-filter=".Design">Design</a>
+        </div>
+      </div>
+      <!-- portfolio items -->
+      <div class="row grid">
+        <!-- filter web -->
+        <div class="col-lg-4 col-md-6 col-sm-6 Website">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-keb">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN HOME.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN HOME.png" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN TENTANG.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN TENTANG.png" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN REALTIME.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN REALTIME.png" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN HISTORI.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN HISTORI.png" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK SUHU.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK SUHU.png" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK KELEMBAPAN.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK KELEMBAPAN.png" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK GAS.png" class="image-popup" data-gallery="galeri-keb">
+                    <img src="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN GRAFIK GAS.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">WEBSITE</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/WEB_PEN_KEBAKARAN/HALAMAN HOME.png" class="image-popup-trigger" data-gallery="galeri-keb"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Website">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-sisu">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/sisudara/1.PNG" class="image-popup" data-gallery="galeri-sisu">
+                    <img src="images/portfolio/sisudara/1.PNG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/sisudara/2.PNG" class="image-popup" data-gallery="galeri-sisu">
+                    <img src="images/portfolio/sisudara/2.PNG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/sisudara/3.PNG" class="image-popup" data-gallery="galeri-sisu">
+                    <img src="images/portfolio/sisudara/3.PNG" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">WEBSITE</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/sisudara/1.PNG" class="image-popup-trigger" data-gallery="galeri-sisu"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Website">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-pdkg">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/pdkg/1.PNG" class="image-popup" data-gallery="galeri-pdkg">
+                    <img src="images/portfolio/pdkg/1.PNG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/pdkg/2.PNG" class="image-popup" data-gallery="galeri-pdkg">
+                    <img src="images/portfolio/pdkg/2.PNG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/pdkg/3.PNG" class="image-popup" data-gallery="galeri-pdkg">
+                    <img src="images/portfolio/pdkg/3.PNG" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">WEBSITE</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/pdkg/1.PNG" class="image-popup-trigger" data-gallery="galeri-pdkg"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- filter Iot -->
+        <div class="col-lg-4 col-md-6 col-sm-6 Iot">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-air">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/1.jpg" class="image-popup" data-gallery="galeri-air">
+                    <img src="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/2.jpg" class="image-popup" data-gallery="galeri-air">
+                    <img src="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/3.jpg" class="image-popup" data-gallery="galeri-air">
+                    <img src="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Alat Pendeteksi Kualitas Air</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/ALAT PENDETEKSI KUALITAS AIR/1.jpg" class="image-popup-trigger" data-gallery="galeri-air"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <div class="col-lg-4 col-md-6 col-sm-6 Iot">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-gas">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas.jpg" class="image-popup" data-gallery="galeri-gas">
+                    <img src="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas1.jpg" class="image-popup" data-gallery="galeri-gas">
+                    <img src="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas2.jpg" class="image-popup" data-gallery="galeri-gas">
+                    <img src="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas3.jpg" class="image-popup" data-gallery="galeri-gas">
+                    <img src="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas3.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Alat Pendeteksi Kebocoran Gas</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/ALAT PENDETEKSI KOBOCORAN GAS/pendeteksi gas.jpg" class="image-popup-trigger" data-gallery="galeri-gas"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Iot">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-sch">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT SMART SCHOOL/1.jpg" class="image-popup" data-gallery="galeri-sch">
+                    <img src="images/portfolio/ALAT SMART SCHOOL/1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT SMART SCHOOL/2.jpg" class="image-popup" data-gallery="galeri-sch">
+                    <img src="images/portfolio/ALAT SMART SCHOOL/2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT SMART SCHOOL/3.jpg" class="image-popup" data-gallery="galeri-sch">
+                    <img src="images/portfolio/ALAT SMART SCHOOL/3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT SMART SCHOOL/4.jpg" class="image-popup" data-gallery="galeri-sch">
+                    <img src="images/portfolio/ALAT SMART SCHOOL/4.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/ALAT SMART SCHOOL/5.jpg" class="image-popup" data-gallery="galeri-sch">
+                    <img src="images/portfolio/ALAT SMART SCHOOL/5.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Alat Smart School</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/ALAT SMART SCHOOL/1.jpg" class="image-popup-trigger" data-gallery="galeri-sch"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Iot">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-tpms">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/tpms.jpeg" class="image-popup" data-gallery="galeri-tpms">
+                    <img src="images/portfolio/tpms.jpeg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/tpms2.jpeg" class="image-popup" data-gallery="galeri-tpms">
+                    <img src="images/portfolio/tpms2.jpeg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/tpms3.jpeg" class="image-popup" data-gallery="galeri-tpms">
+                    <img src="images/portfolio/tpms3.jpeg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/tpms4.jpeg" class="image-popup" data-gallery="galeri-tpms">
+                    <img src="images/portfolio/tpms4.jpeg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Alat TPMS</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/tpms.jpeg" class="image-popup-trigger" data-gallery="galeri-tpms"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Iot">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/ALAT KUALITAS UDARA/1.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">ALAT PENDETEKSI UDARA</h3>
+                <ul>
+                  <li><a href="images/portfolio/ALAT KUALITAS UDARA/1.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+
+         <!-- filter Design -->
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-IYOTA">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/1.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/1.JPEG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/2.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/2.JPEG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/3.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/3.JPEG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/4.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/4.JPEG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/5.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/5.JPEG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/6.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/6.JPEG" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/7.JPEG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/7.JPEG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/IYOTA/IYOTA 4x1 (1).PNG" class="image-popup" data-gallery="galeri-IYOTA">
+                    <img src="images/portfolio/IYOTA/IYOTA 4x1 (1).PNG" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">DESIGN</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/IYOTA/1.JPEG" class="image-popup-trigger" data-gallery="galeri-IYOTA"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <!-- Swiper Container -->
+            <div class="swiper work-image swiper-container gallery-group" id="swiper-galeri" data-gallery="galeri-han">
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="images/portfolio/handrow/1.PNG" class="image-popup" data-gallery="galeri-han">
+                    <img src="images/portfolio/handrow/1.PNG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/handrow/2.PNG" class="image-popup" data-gallery="galeri-han">
+                    <img src="images/portfolio/handrow/2.PNG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/handrow/3.PNG" class="image-popup" data-gallery="galeri-han">
+                    <img src="images/portfolio/handrow/3.PNG" alt="">
+                  </a>
+                </div>
+                  <div class="swiper-slide">
+                  <a href="images/portfolio/handrow/4.PNG" class="image-popup" data-gallery="galeri-han">
+                    <img src="images/portfolio/handrow/4.PNG" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Container -->
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">DESIGN</h3>
+                <ul>
+                  <li>
+                    <!-- Trigger diarahkan ke salah satu gambar -->
+                    <a href="images/portfolio/handrow/1.PNG" class="image-popup-trigger" data-gallery="galeri-han"><i class="fa fa-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/portfolio-1.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/portfolio-3.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/iot-air.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/iot-air.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/iot_kucing.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/iot_kucing.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/kimbab.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/kimbab.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/martabak_mini.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/martabak_mini.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/poster.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/poster.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/ENHYPEN fanmade deco photocard.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/ENHYPEN fanmade deco photocard.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/Banner Study Tour 6x1.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/Banner Study Tour 6x1.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Website">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/portfolio-3.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">WEBSITE</h3>
+                <ul>
+                  <li><a href="images/portfolio/portfolio-3.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Website">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/portfolio-4.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">WEBSITE</h3>
+                <ul>
+                  <li><a href="images/portfolio/portfolio-4.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Game">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/portfolio-5.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/portfolio-5.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 Design">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/portfolio-6.jpg" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">Product Design</h3>
+                <ul>
+                  <li><a href="images/portfolio/portfolio-6.jpg" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 Data">
+          <div class="single-work text-center mt-30">
+            <div class="work-image">
+              <img src="images/portfolio/excel1.png" alt="">
+            </div>
+            <div class="work-overlay">
+              <div class="work-content">
+                <h3 class="work-title">DATA</h3>
+                <ul>
+                  <li><a href="images/portfolio/excel1.png" class="image-popup"><i class="fa fa-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-link"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- single work -->
+        </div>
+      </div>
+     </div>
+   </section>
+    <!-- portfolio section end -->
+    <!-- call to action start -->
+    <section class="call-to-action section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-9">
+            <div class="call-action-content text-center">
+              <h2 class="action-title">Have any project in mind</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium 
+                inventore modi quisquam quasi quo cumque iure nisi, sit qui.</p>
+                <ul>
+                  <li><a href="#" class="btn btn-1">Download CV</a></li>
+                  <li><a href="#services" class="btn btn-2" data-scroll-nav="2"> HIRE ME</a></li>
+                  
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- call to action end --> 
+    <!-- teams section start -->
+    <section class="teams section-padding" data-scroll-index="4" id="teams">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h4>Our Professional Team</h4>
+              <h2>Who is Behind <span>Digitugas</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="team-slider owl-carousel">
+            <div class="team-item">
+              <div class="img-box">
+                <img src="images/team/jasmine.jpg" alt="">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>Fokus pada Graphic Design, Digital Marketing, serta membantu pengerjaan tugas 
+                kuliah dan skripsi. Saya selalu berkomitmen memberikan hasil yang rapi, terstruktur, 
+                dan berkualitas tinggi sesuai dengan kebutuhan klien, baik untuk keperluan akademik 
+                maupun branding digital.</p>
+                 <h3>Jasmine Talitha Zahrani</h3>
+                 <span>Digital Specialist & Academic Assistant</span>
+                 <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="team-item">
+              <div class="img-box">
+                <img src="images/team/dhori.jpg" alt="">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <p>Saya menangani berbagai kebutuhan digital seperti Web Design, Web Development, 
+                dan Aplikasi Android. Selain itu, saya juga membantu pengerjaan tugas seperti PowerPoint, 
+                Microsoft Word, hingga Data Entry. Semua pekerjaan saya kerjakan dengan profesional, 
+                tepat waktu, dan sesuai kebutuhan klien.</p>
+                 <h3>Syifa Almahdhori</h3>
+                 <span>Fullstack Developer & Designer</span>
+                 <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- teams section end -->
+     <!-- pricing section start -->
+     <section class="pricing section-padding" data-scroll-index="5" id="pricing">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h4>pricing</h4>
+              <h2>pricing <span>plan</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>Jasa Pembuatan Skripsi</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">Rp</span>
+                <!-- <span class="price"></span> -->
+                <span class="period"><h4>1.5 - 3 jt</h4></span>
+                <span class="period">/project</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fa fa-check"></i>Bimbingan Full Sampai Lulus</li>
+                  <li><i class="fa fa-check"></i>1x Revisi Sampai ACC</li>
+                  <li><i class="fa fa-check"></i>Desain & Cetak Berkualitas</li>
+                  <li><i class="fa fa-check"></i>Pengerjaan Cepat & Tepat Waktu</li>
+                  <li><i class="fa fa-check"></i>Gratis Konsultasi</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="https://wa.me/6285692203221" target="_blank" class="btn btn-2">get started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>Jasa Pembuatan Alat IoT</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">Rp</span>
+                <!-- <span class="price">199</span> -->
+                <span class="period"><h4>300 - 3 jt</h4></span>
+                <span class="period">/project</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fa fa-check"></i>Desain dan Rancang Alat</li>
+                  <li><i class="fa fa-check"></i>Microcontroller (Arduino/ESP)</li>
+                  <li><i class="fa fa-check"></i>Pemrograman dan Pengujian</li>
+                  <li><i class="fa fa-check"></i>Panduan & Dokumentasi</li>
+                  <li><i class="fa fa-check"></i>Dukungan Teknis Selama 1 Bulan</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="https://wa.me/6285692203221" target="_blank" class="btn btn-2">get started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="pricing-plan">
+              <div class="pricing-header">
+                <h3>Jasa Pembuatan Website</h3>
+              </div>
+              <div class="pricing-price">
+                <span class="currency">Rp</span>
+                <!-- <span class="price">299</span> -->
+                <span class="period"><h4>500 - 4 jt</h4></span>
+                <span class="period">/Project</span>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <li><i class="fa fa-check"></i>Desain Modern & Responsif</li>
+                  <li><i class="fa fa-check"></i>Pengembangan Halaman Utama</li>
+                  <li><i class="fa fa-check"></i>Integrasi Media Sosial</li>
+                  <li><i class="fa fa-check"></i>Optimasi Kecepatan Website</li>
+                  <li><i class="fa fa-check"></i>1 Bulan Maintenance Gratis</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <a href="https://wa.me/6285692203221" target="_blank" class="btn btn-2">get started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </section>
+     <!-- pricing section end -->
+     <!-- faq section start -->
+     <div class="faq section-padding">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h4>faq's</h4>
+              <h2>frequently <span>asked</span> queries</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div id="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                  <h3>Apa itu Digitugas?</h3>
+                </div>
+                <div class="collapse show" id="collapse-01" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Digitugas adalah layanan profesional yang membantu mahasiswa atau pelajar 
+                      dalam menyelesaikan berbagai tugas, mulai dari makalah, presentasi, coding,
+                      pembuatan alat Iot, desain, hingga skripsi.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                  <h3>Jenis tugas apa saja yang bisa dikerjakan oleh Digitugas?</h3>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>1. Tugas kuliah (esai, makalah, jurnal, presentasi)</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>2. Tugas pemrograman (Html, Php, Java, C++, Arduino, dll.)</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>3. Desain grafis (poster, logo, UI/UX)</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>4. Data mining, IoT, sistem informasi</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>5. Skripsi dan laporan akhir</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03">
+                  <h3>Bagaimana cara memesan layanan?</h3>
+                </div>
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>1. Hubungi admin lewat WhatsApp</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>2. Kirim detail tugas</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>3. Dapatkan estimasi harga dan waktu pengerjaan</p>
+                  </div>
+                </div>
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>4. Lakukan pembayaran (DP atau lunas)</p>
+                  </div>
+                </div> <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>5. Tugas dikerjakan sesuai deadline</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                  <h3>Apakah tugas yang dikerjakan 100% orisinil?</h3>
+                </div>
+                <div class="collapse" id="collapse-04" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Ya. Kami menjamin tugas dikerjakan secara orisinil, bukan hasil copy-paste, dan bisa disesuaikan dengan gaya penulisan kamu jika diminta.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                  <h3>Apakah bisa revisi setelah tugas selesai?</h3>
+                </div>
+                <div class="collapse" id="collapse-04" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Bisa. Kami memberikan revisi gratis maksimal 2 kali setelah tugas dikirim, selama masih sesuai dengan permintaan awal.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                  <h3>Berapa lama waktu pengerjaan?</h3>
+                </div>
+                <div class="collapse" id="collapse-04" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Tergantung kompleksitas tugas, rata-rata antara 1–5 hari. Kami juga menerima tugas kilat (express) dengan biaya tambahan.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                  <h3>Apakah layanan ini aman dan rahasia?</h3>
+                </div>
+                <div class="collapse" id="collapse-04" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Sangat aman. Kami menjaga kerahasiaan data dan identitas setiap klien. Tidak akan dibagikan ke pihak manapun.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+     <!-- faq section end -->
+    <section class="padlet section-padding" data-scroll-index="6" id="padlet">
+      <h2 class="section-title">Padlet testimonials</h2>
+      <div class="iframe-wrapper">
+        <div class="iframe-container">
+          <iframe src="https://padlet.com/digitugas/testimonials" allow="fullscreen"></iframe>
+        </div>
+      </div>
+    </section>
+         <!-- contact us section start-->
+     <section class="contact section-padding" data-scroll-index="7" id="contact">
+       <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h4>contact us</h4>
+              <h2>get <span>in touch</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="contact-info">
+              <h3>For Any Queries and Support</h3>
+              <div class="contact-info-item">
+                <i class="fas fa-location-arrow"></i>
+                <h4>Company Location</h4>
+                <p>Tambun Selatan</p>
+              </div>
+              <div class="contact-info-item">
+                <i class="fas fa-envelope"></i>
+                <h4>Write to us at</h4>
+                <p>digitugas@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <i class="fas fa-phone"></i>
+                <h4>Call us on</h4>
+                <p>+62 856-9220-3221</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="Your Name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" placeholder="Your Email" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Your Phone" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Subject" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                     <textarea name="" placeholder="You Message" id="" class="form-control"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="btn-2" type="button" onclick="sendWhatsAppMessage()">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       </div>
+     </section>
+     <!-- contact us section end-->
+     <!-- footer section start -->
+     <footer class="footer">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-12">
+             <p class="copyright-text">&copy; DigiTugas</p>
+           </div>
+         </div>
+       </div>
+     </footer>
+     <!-- footer section end -->
+  <!-- jquery js -->
+  <script src="js/jquery.min.js"></script>
+  <!-- popper js -->
+  <script src="js/popper.min.js"></script>
+  <!-- scrollit js -->
+  <script src="js/scrollit.js"></script>
+  <script src="js/contact.js"></script>
+  <!-- parallax js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- magnific popup js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- main js -->
+  <script src="js/main.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+<script>
+  var swiperAir = new Swiper('#swiper-galeri', {
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    effect: 'fade'
+  });
+
+  $(document).ready(function () {
+    // Inisialisasi Magnific Popup secara lokal per gallery-group
+    $('.gallery-group').each(function () {
+      $(this).find('a.image-popup').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true
+        }
+      });
+    });
+
+    // Trigger khusus untuk popup per gallery
+    $('.image-popup-trigger').on('click', function (e) {
+      e.preventDefault();
+      const galleryName = $(this).data('gallery');
+
+      // Temukan container gallery dengan data-gallery yang sama
+      const galleryContainer = $(`.gallery-group[data-gallery="${galleryName}"]`);
+
+      // Temukan link gambar pertama di container tersebut dan trigger klik
+      galleryContainer.find('a.image-popup').first().click();
+    });
+  });
+  
+</script>
+  </body>
+</html>
